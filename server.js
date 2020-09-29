@@ -5,6 +5,9 @@ const expressHandlebars = require('express-handlebars');
 const app = express();
 // set port
 const PORT = process.env.PORT || 3306;
+app.listen(PORT, () => {
+  console.log('Server is running on port ${PORT}.');
+});
 
 // import DB connection
 const connection = require('./config/connection');
