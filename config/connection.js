@@ -9,11 +9,11 @@ require('dotenv').config();
 const connection = process.env.JAWSDB_URL
   ? mysql.createConnection(process.env.JAWSDB_URL)
   : mysql.createConnection({
-    host: 'localhost',
+    host: 'us-cdbr-east-02.cleardb.com',
     port: 3306,
-    user: process.env.DB_USER,
-    password: process.env.DB_PW,
-    database: process.env.DB_NAME
+    user: b758e86cc17f27,
+    password: 6ee723d7,
+    database: heroku_9248967346830eb
   });
 
   //export connection so other files can use
