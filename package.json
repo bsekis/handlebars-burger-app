@@ -1,5 +1,5 @@
 {
-  "name": "handlebars-burger-app",
+  "name": "handlebars-burgers-app",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -9,19 +9,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chenallee/handlebars-burger-app.git"
+    "url": "git+https://github.com/bsekis/handlebars-burger-app.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/chenallee/handlebars-burger-app/issues"
+    "url": "https://github.com/bsekis/handlebars-burger-app/issues"
   },
-  "homepage": "https://github.com/chenallee/handlebars-burger-app#readme",
-  "dependencies": {
-    "dotenv": "^8.2.0",
-    "express": "^4.17.1",
-    "express-handlebars": "^3.1.0",
-    "mysql": "^2.18.1"
-  }
+  "homepage": "https://github.com/bsekis/handlebars-burger-app#readme"
 }
