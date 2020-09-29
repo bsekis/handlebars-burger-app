@@ -4,7 +4,7 @@ const expressHandlebars = require('express-handlebars');
 // create express app
 const app = express();
 // set port
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3306;
 
 // import DB connection
 const connection = require('./config/connection');
